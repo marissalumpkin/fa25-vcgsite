@@ -1,6 +1,6 @@
 Updating VCG website instructions
 
-1. Pull Github repo with most recent website (https://github.com/kotrynav/vcgsite.git)
+1. Pull Github repo with most recent website (https://github.com/rlin0210/vcgsite.git)
     1. First person to pull, make a personal copy and create a new GitHub repo for your semester.
     2. Second+ people, pull from that semester’s repo.
 2. Make and save changes locally to folder (this means, if multiple people working, always need to sync everyone’s local changes to change the actual website)
