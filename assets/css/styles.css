@@ -437,9 +437,9 @@ header {
 	filter: brightness(30%);
 }
 
+/* landing page */
 .Modern-Slider .item-1 .img-fill {
-	background-image: url(../images/home.png);
-	
+	background-image: url(../images/vcgfa23groupprofessional2.jpg);
 
 }
 
@@ -1126,10 +1126,10 @@ footer .footerlogo {
 	color: #fff;
 }
 
-
-.page-heading {
+/* contact us banner */
+.page-heading { 
 	text-align: center;
-	background-image: url(../images/about-image.jpg);
+	background-image: url(../images/about.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1138,7 +1138,7 @@ footer .footerlogo {
 }
 .about-heading {
 	text-align: center;
-	background-image: url(../images/about-image.jpg);
+	background-image: url(../images/joinhead.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1157,7 +1157,7 @@ footer .footerlogo {
 
 .join-heading {
 	text-align: center;
-	background-image: url(../images/joinhead.jpg);
+	background-image: url(../images/vcgfa23groupsmiling.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
