@@ -141,5 +141,38 @@ jQuery( document ).ready(function( $ ) {
         });
         }
     })
- 
+    
 });
+
+// FAQ JavaScript Code
+function toggleFAQ(element) {
+    const faqItem = element.parentElement;
+    const isOpen = faqItem.classList.contains('open');
+
+    // Close all open FAQs
+    document.querySelectorAll('.faq-item').forEach(item => {
+        item.classList.remove('open');
+    });
+
+    // Toggle the clicked FAQ
+    if (!isOpen) {
+        faqItem.classList.add('open');
+    }
+}
+
+function openTab(evt, tabName) {
+    // Hide all tab contents
+    document.querySelectorAll('.faq-tabcontent').forEach(tab => {
+        tab.style.display = 'none';
+    });
+
+    // Remove active class from all tab links
+    document.querySelectorAll('.faq-tablinks').forEach(tab => {
+        tab.classList.remove('active');
+    });
+
+    // Show the current tab, and add an "active" class to the button that opened the tab
+    document.getElementById(tabName).style.display = 'block';
+    evt.currentTarget.classList.add('active');
+}
+
