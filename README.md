@@ -4,7 +4,7 @@ Updating VCG website instructions
     1. First person to pull, make a personal copy and create a new GitHub repo for your semester.
     2. Second+ people, pull from that semester’s repo.
 2. Make and save changes locally to folder (this means, if multiple people working, always need to sync everyone’s local changes to change the actual website)
-3. Using the following link (https://www.ocf.berkeley.edu/docs/services/shell/#h2_sftp), scroll to the SFTP section where you find a link to download FileZilla and go ahead it.
+3. Using the following link (https://www.ocf.berkeley.edu/docs/services/shell/#h2_sftp), scroll to the SFTP section where you find a link to download FileZilla and download it.
 4. Open FileZilla and at the top enter the following information and click Quickconnect
     1. Host name: ssh.ocf.berkeley.edu
     2. Username: vcg
